@@ -1,0 +1,61 @@
+:root {
+    --tituloPrincipal: 'Roboto Condensed', sans-serif;
+    --subTitulo: 'Montserrat', sans-serif;
+    --parrafos: 'Montserrat', sans-serif;
+
+    --negro: #000000;
+    --blanco: #ffffff;
+    --azul: #2196f3;
+    --violeta:  #7b1fa2;
+    --verde:  #2e7d32;
+    --azulOscuro:  #283593;
+    --naranja:  #ff5722;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+
+.header-ppl{
+    display: flex;
+    background-color: var(--azulOscuro);
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.tittle-header{
+    font-family: var(--tituloPrincipal);
+    color: var(--blanco);
+    font-weight: 900;
+}
+
+.navegation{
+    display: flex;
+    gap: 1.4rem;
+}
+
+.link-nav{
+    font-family: var(--tituloPrincipal);
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.link-nav:hover{
+    color: var(--naranja);
+}
+
+/*********FOOTER*********/
+.container-footer {
+    background-color: var(--negro);
+}
+
+.tittle-footer,
+.tel{
+    font-family: var(--subTitulo);
+    color: var(--blanco);
+    font-size: 1.2rem;
+}
